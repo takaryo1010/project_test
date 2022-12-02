@@ -67,7 +67,7 @@ class Field:
         self.bullets = list()
         self.bullet_flag = False
     
-    
+    #１００００００００
     def append_b(self, x, y, dx, dy):
         self.bullets.append(Bullet(x, y, dx, dy))
 
@@ -141,7 +141,7 @@ class Field:
             
         
     def append_sleep(self):
-
+        a=0
         flag = random.randint(0, 3)
         if flag == 0:#上
             x = random.randint(205,1274)
